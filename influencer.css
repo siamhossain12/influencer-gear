@@ -1,0 +1,175 @@
+/* fot common section */
+:root{
+    --button-color:#E02C6D;
+    --driscription-fontcolor:#706f6f;
+    --driscription-fontsize:16px;
+    --lastbanur-color:#0A0826;
+
+
+
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.display-flex{
+    display: flex;
+}
+.border{
+   border: #E02C6D 1px solid;
+}
+/* for nev  section */
+.nev{
+    
+    justify-content: center;
+}
+.nevsec-fst{
+    width: 1640px;
+    
+    
+    justify-content: space-between;
+    
+}
+.nev-title{
+  font-weight: bold;
+  font-size: 1.5rem ;
+}
+.nev-anchr{
+font-weight: 600;
+margin-top: 41px;
+}
+.anchr{
+    margin-right: 34px;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+                         /*,..................... for benner section .....................*/
+.bannerall{
+    width: 1640px;
+    
+    
+    justify-content: space-between;
+   
+    
+}
+.banner{
+    justify-content: center;
+    margin-top: 50px;
+}
+.banner-img{
+    width: 470px;
+    height: 473px;
+    margin-right: 50px;
+
+    background-image: url(/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 3.25rem;
+}
+.bt-discrip{
+ font-size: 1.5rem;
+    color: var(--driscription-fontcolor);
+  
+}
+.banner-btn{
+    width:196px;
+    height: 44px;
+    background-color:var(--button-color) ;
+    border-radius: 41px;
+    padding: 10px 24px;
+    color: azure;
+    font-weight: bold;
+}
+.banner-part-1{
+    width: 582px;
+    height: 270px;
+}
+
+
+
+
+/* .......................................for isponser companes.............................. */
+.sponsers-company{
+width: 1240px;
+    justify-content: space-evenly;
+    
+    margin-top: 130px;
+    padding: 30px;
+    border: #dbcdcd4d solid 0.1px;
+    box-shadow: #6664644f 1px 1px 3px;
+}
+.companys{
+    justify-content: center;
+    
+}
+
+
+
+
+/* .............................................for card section.............................................. */
+
+
+
+
+
+
+/* for media query */
+@media screen and (max-width:576px) {
+    .nevsec-fst{
+         width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .bannerall{
+          width: 100%;
+          height: auto;
+       flex-direction:column-reverse;
+       gap: 50px;
+       text-align: center;
+       margin: 0 auto;
+       
+    }
+    
+  
+    .banner-img{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+}
+.sponsers-company{
+    width: 100%;
+    height: auto;
+    
+   flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      margin-top: 30px;
+      
+
+}
+.company-img{
+    width: 50%;
+    height: auto;
+    margin-top: 30px;
+    
+
+}
+.banner-part-1{
+    width: 100%;
+    height: 100%;
+
+}
+.banner-btn{
+    width: 50%;
+height: auto;
+}
+    
+}
