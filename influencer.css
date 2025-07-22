@@ -141,9 +141,7 @@ margin: 0 auto;
     margin-top: 97px;
     margin-bottom: 60px;
 }
-.card-img{
-    margin: 0 auto;
-}
+
 .main-btn{
 
     width: 1110px;
@@ -159,6 +157,8 @@ margin: 0 auto;
     margin-left: 5px;
     margin-top: 3px;
 }
+/* ...................................for last body.......................... */
+
 .last-mainbodyr{
     display: flex;
     width: 1140px;
@@ -219,6 +219,9 @@ color: #6C6C6C;
 
 
 /* for media query */
+
+
+/*............................. for nav and top section ..........................................*/
 @media screen and (max-width:576px) {
     .nevsec-fst{
          width: 100%;
@@ -270,5 +273,40 @@ color: #6C6C6C;
     width: 50%;
 height: auto;
 }
-    
+   
+/* for card section */
+.card{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+.card-section{
+ width: 100%;
+ grid-template-columns: repeat(1,1fr);
+
+
+
+}
+.main-btn{
+    width: 100%;
+justify-content: center;
+
+}
+/* fot last body and footer section */
+
+.last-mainbodyr{
+    width: 100%;
+   flex-direction: column;
+
+}
+.last-bodycilum2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.last-bodycilum1{
+    text-align: center;
+}
+
+
 }
