@@ -114,6 +114,105 @@ width: 1240px;
 
 /* .............................................for card section.............................................. */
 
+.card{
+    width: 330px;
+    height: 476px;
+    box-shadow: 0 0 20px 0 #00000056 ;
+    /* padding: 14px 20px; */
+    border-radius: 10px;
+   padding: 20px 0 0 30px;
+  
+}
+
+.card-section{
+    width: 1110px;
+    
+display: grid;
+grid-template-columns:repeat(3,1fr);
+row-gap: 30px;
+column-gap:30px ;
+margin: 0 auto;
+
+}
+.body-title{
+    text-align: center;
+    font-weight: 600;
+    font-size:1.75rem ;
+    margin-top: 97px;
+    margin-bottom: 60px;
+}
+.card-img{
+    margin: 0 auto;
+}
+.main-btn{
+
+    width: 1110px;
+    display: flex;
+    justify-content: right;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgba(224, 44, 109, 0.87);
+}
+.fa-solid{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.last-mainbodyr{
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    
+    margin-top: 60px;
+}
+.last-bodycilum2{
+    width: 610px;
+    margin-left:150px;
+    
+}
+.lbody-title{
+font-weight: bold;
+font-size: 2.4rem;
+color: #0A0826;
+}
+.lbody-discription{
+font-weight: bold;
+font-size: 1rem;
+color: #6C6C6C;
+}
+.lbody-btn{
+    width: 175px;
+    height: 55px;
+    background-color: #E02C6D;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+/* .............................for footer section ...............................*/
+.footer{
+    margin-top: 100px;
+    text-align: center;
+   background-color: #0A0826;
+   color: aliceblue;
+   padding: 100px 0;
+}
+.footer-logo{
+    margin-top: 30px;
+  
+}
+.ab{
+
+   margin: 0 10px 0 10px;
+}
+     
+
+
+
+
+
+
 
 
 
